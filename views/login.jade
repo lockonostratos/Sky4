@@ -1,0 +1,20 @@
+extends layouts/session
+
+block content
+  form.signin-panel(action='/session/create', method="post")
+     span.heading Đăng nhập eds <br />
+        extra() Đại lý
+     .signin-wrap
+        .signin-inputs
+           input(type="text", placeholder="địa chỉ email")#email
+           input(type="text", placeholder="mật khẩu")#password
+        .signin-buttons
+           label.checkbox
+              input(type="checkbox")
+              | Nhớ tài khoản
+              span.right-float
+                a(href="#") Quên mật khẩu?
+           button.signin-button(type="submit") ĐĂNG NHẬP!
+     .registration.right-float
+       | Chưa có tài khoản?
+       a(href="")  đăng ký ngay!

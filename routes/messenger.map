@@ -1,0 +1,10 @@
+{
+  "version": 3,
+  "file": "messenger.js",
+  "sourceRoot": "",
+  "sources": [
+    "messenger.coffee"
+  ],
+  "names": [],
+  "mappings": ";AAAA;AAAA;AAAA"
+}

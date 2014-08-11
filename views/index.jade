@@ -1,5 +1,13 @@
-extends layout
+extends layouts/layout
 
 block content
-  h1= title
-  p Welcome to #{title}
+    div.container(ng-controller="messengerController as messengerCtrl")
+        header
+            h1 A Chat application with Node.js and Socket.io
+        input(type='text')#pseudoInput
+        button#pseudoSet Set Pseudo
+        div#chatEntries {{messengerCtrl.message}}
+        div#chatControls
+            input(type='text')#messageInput
+            button#submit Send
+

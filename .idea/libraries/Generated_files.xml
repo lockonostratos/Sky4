@@ -2,13 +2,43 @@
   <library name="Generated files" type="javaScript">
     <properties>
       <sourceFilesUrls>
+        <item url="file://$PROJECT_DIR$/public/javascripts/vendors/chain.js" />
+        <item url="file://$PROJECT_DIR$/routes/messenger.js" />
+        <item url="file://$PROJECT_DIR$/public/javascripts/vendors/worse.js" />
+        <item url="file://$PROJECT_DIR$/public/javascripts/controllers/all.js" />
+        <item url="file://$PROJECT_DIR$/public/javascripts/vendors/test.js" />
+        <item url="file://$PROJECT_DIR$/routes/session.js" />
         <item url="file://$PROJECT_DIR$/public/javascripts/sky.js" />
-        <item url="file://$PROJECT_DIR$/public/javascripts/sky.js" />
+        <item url="file://$PROJECT_DIR$/public/javascripts/controllers/messenger/messengerController.js" />
       </sourceFilesUrls>
     </properties>
     <CLASSES>
+      <root url="file://$PROJECT_DIR$/public/javascripts/one.js" />
+      <root url="file://$PROJECT_DIR$/public/javascripts/two.js" />
+      <root url="file://$PROJECT_DIR$/public/javascripts/one.js" />
+      <root url="file://$PROJECT_DIR$/public/javascripts/two.js" />
+      <root url="file://$PROJECT_DIR$/public/javascripts/controllers/messenger.js" />
+      <root url="file://$PROJECT_DIR$/public/javascripts/controllers/messenger.js" />
+      <root url="file://$PROJECT_DIR$/public/javascripts/controllers/messenger/messengerCtrl.js" />
+      <root url="file://$PROJECT_DIR$/public/javascripts/controllers/messenger/messengerCtrl.js" />
+      <root url="file://$PROJECT_DIR$/node_modules/connect-assets/node_modules/mincer/node_modules/hike/test/fixtures/app/views/people.js" />
+      <root url="file://$PROJECT_DIR$/node_modules/connect-assets/node_modules/mincer/node_modules/shellwords/src/shellwords.js" />
+      <root url="file://$PROJECT_DIR$/node_modules/connect-assets/node_modules/mincer/examples/assets/javascripts/app.js.js" />
+      <root url="file://$PROJECT_DIR$/node_modules/connect-assets/node_modules/mincer/node_modules/shellwords/spec/shellwords_spec.js" />
+      <root url="file://$PROJECT_DIR$/node_modules/connect-assets/node_modules/mincer/node_modules/hike/test/fixtures/app/views/people.js" />
+      <root url="file://$PROJECT_DIR$/node_modules/connect-assets/node_modules/mincer/node_modules/shellwords/src/shellwords.js" />
+      <root url="file://$PROJECT_DIR$/node_modules/connect-assets/node_modules/mincer/examples/assets/javascripts/app.js.js" />
+      <root url="file://$PROJECT_DIR$/node_modules/connect-assets/node_modules/mincer/node_modules/shellwords/spec/shellwords_spec.js" />
       <root url="file://$PROJECT_DIR$/public/javascripts/sky.js" />
       <root url="file://$PROJECT_DIR$/public/javascripts/sky.js" />
+      <root url="file://$PROJECT_DIR$/assets/js/vendors/chain.js" />
+      <root url="file://$PROJECT_DIR$/assets/js/vendors/worse.js" />
+      <root url="file://$PROJECT_DIR$/routes/messenger.js" />
+      <root url="file://$PROJECT_DIR$/assets/js/controllers/all.js" />
+      <root url="file://$PROJECT_DIR$/assets/js/vendors/test.js" />
+      <root url="file://$PROJECT_DIR$/routes/session.js" />
+      <root url="file://$PROJECT_DIR$/public/javascripts/sky.js" />
+      <root url="file://$PROJECT_DIR$/assets/js/controllers/messenger/messengerController.js" />
     </CLASSES>
     <SOURCES />
   </library>
