@@ -6,6 +6,9 @@ Sky.controller 'applicationCtrl', ['$routeParams', '$location', '$scope', 'Commo
 #    Common.currentMerchantAccount = data
 #    Common.currentMerchantAccount.avatar = '/assets/Son.jpg'
 #    @Author = Common.currentMerchantAccount
+  @Author =
+    merchant:
+      name: 'Huynh Chau'
 
   @Common = Common
 

@@ -1,7 +1,7 @@
 Sky.directive 'skyButton', ->
   obj =
     restrict: 'E'
-    templateUrl: '../assets/directives/ui/button.html'
+    templateUrl: 'templates/directives/ui/button.html'
     scope:
       caption: '@'
       icon: '@'

@@ -1,7 +1,7 @@
 Sky.directive 'skyTab', ->
   obj =
     restrict: 'E'
-    templateUrl: '../assets/directives/ui/tab.html'
+    templateUrl: 'templates/directives/ui/tab.html'
     scope:
       options: '='
       model: '='

@@ -1,7 +1,7 @@
 Sky.directive 'skySelect', ->
   obj =
     restrict: 'E'
-    templateUrl: '../assets/directives/ui/select.html'
+    templateUrl: 'templates/directives/ui/select.html'
     scope:
       options: '='
       model: '='

@@ -1,0 +1,46 @@
+<tabset>
+  <tab heading="Xem - Xác Nhận Phiếu Giao Hàng">
+    Justified content
+  </tab>
+  <tab heading="Tạo - Hủy Phiếu Giao Hàng">
+    Long Labeled Justified content
+  </tab>
+
+</tabset>
+
+
+
+<sky-select color="pumpkin shadow" caption="name"
+            model="deliveryCtrl.currentWarehouse"
+            options="deliveryCtrl.warehouses"
+            change="deliveryCtrl.changeView(model)"></sky-select>
+<input type="radio" ng-model="deliveryCtrl.showDelivery" value="all" ng-change="deliveryCtrl.changeView()"> All View
+<input type="radio" ng-model="deliveryCtrl.showDelivery" value="only" ng-change="deliveryCtrl.changeView()"> Only View
+<table class="table">
+  <thead>
+  <th>Mã Order</th>
+  <th>Tên Người Liên Lạc</th>
+  <th>Số Điện Thoại</th>
+  <th>Địa Chỉ Giao Hàng</th>
+  <th>Ngày Đặt Hàng</th>
+  <th>Ngày Giao Hàng</th>
+  <th>Phí Vận Chuyển</th>
+  <th>Ghi Chú</th>
+  <th>NV Giao Hàng</th>
+  <th>Tình Trạng</th>
+  </thead>
+  <tr ng-repeat="item in deliveryCtrl.deliveries">
+    <td>{{item.name}}</td>
+    <td>{{item.contactName}}</td>
+    <td>{{item.contactPhone}}</td>
+    <td>{{item.deliveryAddress}}</td>
+    <td>{{item.creationDate}}</td>
+    <td>{{item.deliveryDate}}</td>
+    <td>{{item.transportationFee}}</td>
+    <td>{{item.comment}}</td>
+    <td>{{item.shippers.displayName}}</td>
+    <td>{{item.statusShow}}</td>
+    <td><input type="button" value="{{item.showButton}}" ng-click="deliveryCtrl.changeStatus(item, $index)"></td>
+
+  </tr>
+</table>
