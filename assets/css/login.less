@@ -1,25 +1,6 @@
+@import "lib/mixins";
+
 @lime: #aec785;
-.border-top-radius(@radius) {
-  -webkit-border-top-left-radius: @radius;
-  -moz-border-top-left-radius: @radius;
-  border-top-left-radius: @radius;
-  -webkit-border-top-right-radius: @radius;
-  -moz-border-top-right-radius: @radius;
-  border-top-right-radius: @radius;
-}
-.border-bottom-radius(@radius) {
-  -webkit-border-bottom-left-radius: @radius;
-  -moz-border-bottom-left-radius: @radius;
-  border-bottom-left-radius: @radius;
-  -webkit-border-bottom-right-radius: @radius;
-  -moz-border-bottom-right-radius: @radius;
-  border-bottom-right-radius: @radius;
-}
-.border-radius(@radius) {
-  -webkit-border-radius: @radius;
-  -moz-border-radius: @radius;
-  border-radius: @radius;
-}
 
 * {
   font-family: 'Open Sans', sans-serif;
@@ -54,7 +35,7 @@ body {
     .border-bottom-radius(5px);
 
     .signin-inputs {
-      background: #eaeaec;
+      background: #eaeaea;
       padding: 20px;
 
       input[type=text], input[type=password] {

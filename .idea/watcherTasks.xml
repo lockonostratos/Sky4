@@ -42,7 +42,7 @@
       <option name="outputFromStdout" value="false" />
       <option name="passParentEnvs" value="true" />
       <option name="program" value="coffee.cmd" />
-      <option name="scopeName" value="Routes" />
+      <option name="scopeName" value="ServerOnly" />
       <option name="trackOnlyRoot" value="true" />
       <option name="workingDir" value="$FileDir$" />
       <envs />

@@ -9,7 +9,7 @@ var mongoose = require('mongoose');
 var routes = require('./routes/index');
 var users = require('./routes/users');
 var session = require('./routes/session');
-var messenger = require('./routes/session');
+var messenger = require('./routes/messenger');
 
 var app = express();
 

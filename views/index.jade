@@ -1,7 +1,7 @@
 extends layouts/layout
 
 block content
-    div.container(ng-controller="messengerController as messengerCtrl")
+    div(ng-controller="messengerController as messengerCtrl")
         header
             h1 A Chat application with Node.js and Socket.io
         input(type='text')#pseudoInput
@@ -10,4 +10,3 @@ block content
         div#chatControls
             input(type='text')#messageInput
             button#submit Send
-

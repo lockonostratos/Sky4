@@ -2,14 +2,32 @@
   <library name="Generated files" type="javaScript">
     <properties>
       <sourceFilesUrls>
-        <item url="file://$PROJECT_DIR$/public/javascripts/vendors/chain.js" />
-        <item url="file://$PROJECT_DIR$/routes/messenger.js" />
-        <item url="file://$PROJECT_DIR$/public/javascripts/vendors/worse.js" />
-        <item url="file://$PROJECT_DIR$/public/javascripts/controllers/all.js" />
-        <item url="file://$PROJECT_DIR$/public/javascripts/vendors/test.js" />
+        <item url="file://$PROJECT_DIR$/assets/js/controllers/home/indexCtrl.js.js" />
+        <item url="file://$PROJECT_DIR$/assets/js/directives/ui/sky.tab.js.js" />
+        <item url="file://$PROJECT_DIR$/assets/js/directives/ui/sky.focusable.js.js" />
+        <item url="file://$PROJECT_DIR$/assets/js/filters/moments.js.js" />
+        <item url="file://$PROJECT_DIR$/assets/js/controllers/home/postCtrl.js.js" />
+        <item url="file://$PROJECT_DIR$/assets/js/directives/ui/sky.select.js.js" />
         <item url="file://$PROJECT_DIR$/routes/session.js" />
-        <item url="file://$PROJECT_DIR$/public/javascripts/sky.js" />
-        <item url="file://$PROJECT_DIR$/public/javascripts/controllers/messenger/messengerController.js" />
+        <item url="file://$PROJECT_DIR$/assets/js/controllers/global/applicationCtrl.js.js" />
+        <item url="file://$PROJECT_DIR$/assets/js/controllers/global/headerCtrl.js.js" />
+        <item url="file://$PROJECT_DIR$/assets/js/directives/ui/sky.search.js.js" />
+        <item url="file://$PROJECT_DIR$/assets/js/directives/ui/sky.button.js.js" />
+        <item url="file://$PROJECT_DIR$/assets/js/services/navigation.js.js" />
+        <item url="file://$PROJECT_DIR$/assets/js/sky.js" />
+        <item url="file://$PROJECT_DIR$/assets/js/controllers/global/footerCtrl.js.js" />
+        <item url="file://$PROJECT_DIR$/assets/js/directives/global/numbersOnly.js.js" />
+        <item url="file://$PROJECT_DIR$/assets/js/services/data.js.js" />
+        <item url="file://$PROJECT_DIR$/assets/js/services/common.js.js" />
+        <item url="file://$PROJECT_DIR$/assets/js/services/extensions.js.js" />
+        <item url="file://$PROJECT_DIR$/node_modules/connect-assets/node_modules/mincer/node_modules/hike/test/fixtures/app/views/people.js" />
+        <item url="file://$PROJECT_DIR$/node_modules/connect-assets/node_modules/mincer/examples/assets/javascripts/app.js.js" />
+        <item url="file://$PROJECT_DIR$/node_modules/connect-assets/node_modules/mincer/node_modules/shellwords/src/shellwords.js" />
+        <item url="file://$PROJECT_DIR$/node_modules/connect-assets/node_modules/mincer/node_modules/shellwords/spec/shellwords_spec.js" />
+        <item url="file://$PROJECT_DIR$/assets/js/controllers/sales/returnCtrl.js.js" />
+        <item url="file://$PROJECT_DIR$/assets/js/controllers/sales/saleCtrl.js.js" />
+        <item url="file://$PROJECT_DIR$/routes/messenger.js" />
+        <item url="file://$PROJECT_DIR$/assets/js/controllers/sales/deliveryCtrl.js.js" />
       </sourceFilesUrls>
     </properties>
     <CLASSES>
@@ -21,24 +39,53 @@
       <root url="file://$PROJECT_DIR$/public/javascripts/controllers/messenger.js" />
       <root url="file://$PROJECT_DIR$/public/javascripts/controllers/messenger/messengerCtrl.js" />
       <root url="file://$PROJECT_DIR$/public/javascripts/controllers/messenger/messengerCtrl.js" />
-      <root url="file://$PROJECT_DIR$/node_modules/connect-assets/node_modules/mincer/node_modules/hike/test/fixtures/app/views/people.js" />
-      <root url="file://$PROJECT_DIR$/node_modules/connect-assets/node_modules/mincer/node_modules/shellwords/src/shellwords.js" />
-      <root url="file://$PROJECT_DIR$/node_modules/connect-assets/node_modules/mincer/examples/assets/javascripts/app.js.js" />
-      <root url="file://$PROJECT_DIR$/node_modules/connect-assets/node_modules/mincer/node_modules/shellwords/spec/shellwords_spec.js" />
-      <root url="file://$PROJECT_DIR$/node_modules/connect-assets/node_modules/mincer/node_modules/hike/test/fixtures/app/views/people.js" />
-      <root url="file://$PROJECT_DIR$/node_modules/connect-assets/node_modules/mincer/node_modules/shellwords/src/shellwords.js" />
-      <root url="file://$PROJECT_DIR$/node_modules/connect-assets/node_modules/mincer/examples/assets/javascripts/app.js.js" />
-      <root url="file://$PROJECT_DIR$/node_modules/connect-assets/node_modules/mincer/node_modules/shellwords/spec/shellwords_spec.js" />
       <root url="file://$PROJECT_DIR$/public/javascripts/sky.js" />
       <root url="file://$PROJECT_DIR$/public/javascripts/sky.js" />
       <root url="file://$PROJECT_DIR$/assets/js/vendors/chain.js" />
       <root url="file://$PROJECT_DIR$/assets/js/vendors/worse.js" />
-      <root url="file://$PROJECT_DIR$/routes/messenger.js" />
       <root url="file://$PROJECT_DIR$/assets/js/controllers/all.js" />
       <root url="file://$PROJECT_DIR$/assets/js/vendors/test.js" />
-      <root url="file://$PROJECT_DIR$/routes/session.js" />
       <root url="file://$PROJECT_DIR$/public/javascripts/sky.js" />
       <root url="file://$PROJECT_DIR$/assets/js/controllers/messenger/messengerController.js" />
+      <root url="file://$PROJECT_DIR$/routes/merchant.js" />
+      <root url="file://$PROJECT_DIR$/routes/merchant.js" />
+      <root url="file://$PROJECT_DIR$/assets/js/directives/ui/sky.tab.js.js" />
+      <root url="file://$PROJECT_DIR$/assets/js/directives/ui/sky.focusable.js.js" />
+      <root url="file://$PROJECT_DIR$/assets/js/filters/moments.js.js" />
+      <root url="file://$PROJECT_DIR$/assets/js/directives/ui/sky.select.js.js" />
+      <root url="file://$PROJECT_DIR$/assets/js/directives/ui/sky.search.js.js" />
+      <root url="file://$PROJECT_DIR$/assets/js/directives/ui/sky.button.js.js" />
+      <root url="file://$PROJECT_DIR$/assets/js/services/navigation.js.js" />
+      <root url="file://$PROJECT_DIR$/assets/js/directives/global/numbersOnly.js.js" />
+      <root url="file://$PROJECT_DIR$/assets/js/services/data.js.js" />
+      <root url="file://$PROJECT_DIR$/assets/js/services/common.js.js" />
+      <root url="file://$PROJECT_DIR$/assets/js/services/extensions.js.js" />
+      <root url="file://$PROJECT_DIR$/assets/js/directives/ui/sky.tab.js.js" />
+      <root url="file://$PROJECT_DIR$/assets/js/controllers/home/indexCtrl.js.js" />
+      <root url="file://$PROJECT_DIR$/assets/js/directives/ui/sky.focusable.js.js" />
+      <root url="file://$PROJECT_DIR$/assets/js/filters/moments.js.js" />
+      <root url="file://$PROJECT_DIR$/routes/session.js" />
+      <root url="file://$PROJECT_DIR$/assets/js/directives/ui/sky.select.js.js" />
+      <root url="file://$PROJECT_DIR$/assets/js/controllers/home/postCtrl.js.js" />
+      <root url="file://$PROJECT_DIR$/assets/js/controllers/global/applicationCtrl.js.js" />
+      <root url="file://$PROJECT_DIR$/assets/js/controllers/global/headerCtrl.js.js" />
+      <root url="file://$PROJECT_DIR$/assets/js/directives/ui/sky.search.js.js" />
+      <root url="file://$PROJECT_DIR$/assets/js/directives/ui/sky.button.js.js" />
+      <root url="file://$PROJECT_DIR$/assets/js/services/navigation.js.js" />
+      <root url="file://$PROJECT_DIR$/assets/js/sky.js" />
+      <root url="file://$PROJECT_DIR$/assets/js/controllers/global/footerCtrl.js.js" />
+      <root url="file://$PROJECT_DIR$/assets/js/directives/global/numbersOnly.js.js" />
+      <root url="file://$PROJECT_DIR$/assets/js/services/data.js.js" />
+      <root url="file://$PROJECT_DIR$/assets/js/services/common.js.js" />
+      <root url="file://$PROJECT_DIR$/assets/js/services/extensions.js.js" />
+      <root url="file://$PROJECT_DIR$/node_modules/connect-assets/node_modules/mincer/node_modules/hike/test/fixtures/app/views/people.js" />
+      <root url="file://$PROJECT_DIR$/node_modules/connect-assets/node_modules/mincer/examples/assets/javascripts/app.js.js" />
+      <root url="file://$PROJECT_DIR$/node_modules/connect-assets/node_modules/mincer/node_modules/shellwords/src/shellwords.js" />
+      <root url="file://$PROJECT_DIR$/node_modules/connect-assets/node_modules/mincer/node_modules/shellwords/spec/shellwords_spec.js" />
+      <root url="file://$PROJECT_DIR$/assets/js/controllers/sales/returnCtrl.js.js" />
+      <root url="file://$PROJECT_DIR$/assets/js/controllers/sales/saleCtrl.js.js" />
+      <root url="file://$PROJECT_DIR$/assets/js/controllers/sales/deliveryCtrl.js.js" />
+      <root url="file://$PROJECT_DIR$/routes/messenger.js" />
     </CLASSES>
     <SOURCES />
   </library>

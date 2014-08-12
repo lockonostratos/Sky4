@@ -1,0 +1,29 @@
+header(ng-controller="headerCtrl as header")
+  .logo(ng-class="{'collapsed': application.collapsedMode}")
+      .commands.ng-hide(ng-show="true")
+        a.lime.btn(href="")
+          i.fa.fa-wrench
+      span(ng-class="{'collapsed': application.collapsedMode}") {{application.Author.merchant.name}}
+  nav.navbar.navbar-static-top(role="navigation", ng-class="{'collapsed': application.collapsedMode}")
+      .navbar-left
+        ul.nav.navbar-nav
+          li: a.navbar-brand.sidebar-toggle(href="", ng-click="application.toggleCollapse()"): i.fa.fa-bars
+          li: a.home-nav(href="/"): i.fa.fa-arrow-circle-o-left.fa-3x
+          li: span.app-caption {{application.Common.caption}}
+      .navbar-right
+        ul.nav.navbar-nav
+          li.dropdown.menu.teal: a.dropdown-toggle(href="", data-toggle="dropdown")
+            i.fa.fa-comment-o
+            span.label.label-success 4
+          li.dropdown.menu.peter-river: a.dropdown-toggle(href="", data-toggle="dropdown")
+            i.fa.fa-bell-o
+            span.label 4
+          li.dropdown.menu.carrot: a.dropdown-toggle(href="", data-toggle="dropdown")
+            i.fa.fa-calendar
+            span.label.label-success 4
+          li.dropdown.menu.gray.no-border: a.dropdown-toggle(href="", data-toggle="dropdown")
+            i.fa.fa-th-list
+      .navbar-form.navbar-right.search-form(role="search")
+        .input-group
+          span.input-group-btn: button.btn.btn-default(type="submit"): i.fa.fa-search
+          input.form-control.search-box(type="text", placeholder="tìm sản phẩm, nhân sự, tổ chức...")

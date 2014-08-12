@@ -16,6 +16,8 @@
     "mongoose": "3.8.14",
     "morgan": "~1.0.0",
     "static-favicon": "~1.0.0",
-    "connect-assets": "*"
+    "connect-assets": "~4.3.0",
+    "coffee-script": "*",
+    "less": "*"
   }
 }
