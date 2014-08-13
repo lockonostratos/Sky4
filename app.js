@@ -18,7 +18,7 @@ var messenger = require('./routes/messenger');
 var app = express();
 var dbConfig = require("./configs/database");
 mongoose.connect(dbConfig.url);
-require('./configs/passport')(passport); // pass passport for configuration
+require('./configs/passport')(passport);
 
 // view engine setup
 app.set('views', path.join(__dirname, 'views'));
