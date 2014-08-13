@@ -1,7 +1,7 @@
 extends layouts/session
 
 block content
-  form.signin-panel(action='/session/create', method="post")
+  form.signin-panel(action='/session/signup', method="post")
      span.heading Đăng nhập eds <br />
         extra() Đại lý
      .signin-wrap
@@ -14,7 +14,4 @@ block content
               | Nhớ tài khoản
               span.right-float
                 a(href="#") Quên mật khẩu?
-           button.signin-button(type="submit") ĐĂNG NHẬP!
-     .registration.right-float
-       | Chưa có tài khoản?
-       a(href="")  Đăng ký ngay!
+           button.signin-button(type="submit") ĐĂNG KÝ!

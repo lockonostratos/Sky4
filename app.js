@@ -6,29 +6,43 @@ var cookieParser = require('cookie-parser');
 var bodyParser = require('body-parser');
 var mongoose = require('mongoose');
 
+var passport = require('passport');
+var session = require('express-session');
+var flash        = require('connect-flash');
+
 var routes = require('./routes/index');
 var users = require('./routes/users');
-var session = require('./routes/session');
+var sessions = require('./routes/sessions');
 var messenger = require('./routes/messenger');
 
 var app = express();
+var dbConfig = require("./configs/database");
+mongoose.connect(dbConfig.url);
+require('./configs/passport')(passport); // pass passport for configuration
 
 // view engine setup
 app.set('views', path.join(__dirname, 'views'));
 app.set('view engine', 'jade');
 
+app.use(require("connect-assets")());
 app.use(favicon());
 app.use(logger('dev'));
+app.use(bodyParser());
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded());
 app.use(cookieParser());
 app.use(express.static(path.join(__dirname, 'public')));
 
-app.use(require("connect-assets")());
+// required for passport
+app.use(session({ secret: 'secretcannotbetoldofenterprisedualstrategy' }));
+app.use(passport.initialize());
+app.use(passport.session());
+app.use(flash()); // use connect-flash for flash messages stored in session
+
 
 app.use('/', routes);
 app.use('/users', users);
-app.use('/session', session);
+app.use('/sessions', sessions);
 app.use('/messenger', messenger);
 
 
@@ -51,7 +65,6 @@ if (app.get('env') === 'development') {
             error: err
         });
     });
-    mongoose.connect('mongodb://cloud:Ultimate5@ds055709.mongolab.com:55709/estra');
 }
 
 // production error handler

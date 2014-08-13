@@ -1,7 +1,7 @@
 header(ng-controller="headerCtrl as header")
   nav.navbar.navbar-static-top(role="navigation", ng-class="{'collapsed': application.collapsedMode}")
       .logo(ng-class="{'collapsed': application.collapsedMode}")
-        a.sidebar-toggle(href="", ng-click="application.toggleCollapse()"): i.fa.fa-bars
+        //a.sidebar-toggle(href="", ng-click="application.toggleCollapse()"): i.fa.fa-bars
         //.commands.ng-hide(ng-show="true")
         //  a.lime.btn(href="")
         //    i.fa.fa-wrench
@@ -9,6 +9,7 @@ header(ng-controller="headerCtrl as header")
       .navbar-left
         .navbar-devider
         ul.nav.navbar-nav
+          li: a.sidebar-toggle(href="", ng-click="application.toggleCollapse()"): i.fa.fa-bars
           li: a(href="/"): i.fa.fa-desktop
           li: span.app-caption {{application.Common.caption}}
       .navbar-right

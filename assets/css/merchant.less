@@ -52,6 +52,9 @@ header {
     margin-bottom: 0;
     i, a { color: #5e5e5e; }
 
+    .collapse-transition;
+    &.collapsed { margin-left: -@left-pane + @left-pane-collapsed; }
+
     .navbar-left {
       position: relative;
       font-size: 18px;
@@ -66,7 +69,7 @@ header {
         left: 0; top: 10px;
         height: 30px;
         width: 1px;
-        border-left: 1px solid #ededed;
+        border-left: 1px solid #e0e0e0;
       }
 
       .app-caption {
@@ -76,11 +79,7 @@ header {
         text-transform: uppercase;
       }
     }
-
     li:hover a {background: transparent;}
-
-
-
     .dropdown.menu {
       a {
         position: relative;
@@ -230,6 +229,6 @@ header {
   &.collapsed { margin-left: @left-pane-collapsed; }
 
   .content {
-    padding: 10px;
+    padding: 15px;
   }
 }

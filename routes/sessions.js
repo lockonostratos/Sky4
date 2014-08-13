@@ -7,15 +7,15 @@
   router = express.Router();
 
   router.get('/', function(req, res) {
-    return res.render('login');
+    return res.render('signin');
   });
 
-  router.post('/create', function(req, res) {
-    return res.send(req.body);
+  router.get('/signup', function(req, res) {
+    return res.render('signup');
   });
 
   module.exports = router;
 
 }).call(this);
 
-//# sourceMappingURL=session.map
+//# sourceMappingURL=sessions.map

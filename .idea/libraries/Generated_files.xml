@@ -61,7 +61,7 @@
       <root url="file://$PROJECT_DIR$/assets/js/controllers/sales/saleCtrl.js.js" />
       <root url="file://$PROJECT_DIR$/assets/js/controllers/sales/deliveryCtrl.js.js" />
       <root url="file://$PROJECT_DIR$/routes/messenger.js" />
-      <root url="file://$PROJECT_DIR$/routes/session.js" />
+      <root url="file://$PROJECT_DIR$/routes/sessions.js" />
     </CLASSES>
     <SOURCES />
   </library>

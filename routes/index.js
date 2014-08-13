@@ -6,7 +6,7 @@ router.get('/', function(req, res) {
 });
 
 router.get('/messenger', function(req, res) {
-    res.render('index', { title: 'Enterprise Dual Strategy' });
+  res.render('index', { title: 'Enterprise Dual Strategy' });
 });
 
 module.exports = router;
