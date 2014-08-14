@@ -1,13 +1,14 @@
 module.exports =  (app, express, passport) ->
   user = express.Router()
   mongoose = require 'mongoose'
-  User = mongoose.model 'users', {name: String}
+  User = require '../models/user'
 
-  user.get '/profile', Authenticated, (req, res, next) ->
-    User.find (err, users) -> res.send users
+  user.get '/profile', Authenticated, (req, res) ->
+    res.send req.user
 
   app.use '/user', user
 
 Authenticated = (req, res, next) ->
-  if req.isAuthenticated() then next()
-  res.redirect '/session'
+  console.log req.isAuthenticated()
+  return next() if req.isAuthenticated()
+  res.redirect '/session/login';

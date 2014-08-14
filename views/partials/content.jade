@@ -7,7 +7,7 @@
            h4.welcome
             small.color-lime Quản lý <br />
             | {{application.Author.account.displayName}}
-        .commands: a.pumpkin.btn(href="/signout"): i.fa.fa-power-off
+        .commands: a.pumpkin.btn(href="/logout"): i.fa.fa-power-off
       ul.sidebar-menu
         li(ng-class="{active: application.currentUrl == item.url}", ng-repeat="item in application.navs")
           a(href="#{{item.url}}")

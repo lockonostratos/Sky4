@@ -22,6 +22,7 @@
 
     "passport": "latest",
     "passport-local" : "latest",
+    "connect-mongo": "latest",
     "express-session": "latest",
     "connect-flash": "latest",
     "bcrypt-nodejs" : "latest"

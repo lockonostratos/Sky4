@@ -2,10 +2,11 @@
   <library name="Generated files" type="javaScript">
     <properties>
       <sourceFilesUrls>
-        <item url="file://$PROJECT_DIR$/routes/index.js" />
-        <item url="file://$PROJECT_DIR$/routes/sessions.js" />
-        <item url="file://$PROJECT_DIR$/routes/user.js" />
+        <item url="file://$PROJECT_DIR$/models/merchant.js" />
         <item url="file://$PROJECT_DIR$/routes/messenger.js" />
+        <item url="file://$PROJECT_DIR$/routes/user.js" />
+        <item url="file://$PROJECT_DIR$/routes/session.js" />
+        <item url="file://$PROJECT_DIR$/routes/index.js" />
       </sourceFilesUrls>
     </properties>
     <CLASSES>
@@ -57,15 +58,16 @@
       <root url="file://$PROJECT_DIR$/assets/js/controllers/home/indexCtrl.js.js" />
       <root url="file://$PROJECT_DIR$/node_modules/connect-assets/node_modules/mincer/examples/assets/javascripts/app.js.js" />
       <root url="file://$PROJECT_DIR$/node_modules/connect-assets/node_modules/mincer/node_modules/shellwords/src/shellwords.js" />
-      <root url="file://$PROJECT_DIR$/routes/session.js" />
       <root url="file://$PROJECT_DIR$/node_modules/connect-assets/node_modules/mincer/node_modules/shellwords/spec/shellwords_spec.js" />
       <root url="file://$PROJECT_DIR$/assets/js/controllers/home/postCtrl.js.js" />
       <root url="file://$PROJECT_DIR$/assets/js/controllers/sales/returnCtrl.js.js" />
-      <root url="file://$PROJECT_DIR$/routes/index.js" />
       <root url="file://$PROJECT_DIR$/assets/js/controllers/sales/saleCtrl.js.js" />
-      <root url="file://$PROJECT_DIR$/routes/user.js" />
       <root url="file://$PROJECT_DIR$/assets/js/controllers/sales/deliveryCtrl.js.js" />
+      <root url="file://$PROJECT_DIR$/models/merchant.js" />
       <root url="file://$PROJECT_DIR$/routes/messenger.js" />
+      <root url="file://$PROJECT_DIR$/routes/user.js" />
+      <root url="file://$PROJECT_DIR$/routes/index.js" />
+      <root url="file://$PROJECT_DIR$/routes/session.js" />
     </CLASSES>
     <SOURCES />
   </library>

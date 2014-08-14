@@ -5,11 +5,11 @@ var logger = require('morgan');
 var cookieParser = require('cookie-parser');
 var bodyParser = require('body-parser');
 var mongoose = require('mongoose');
+
 var passport = require('passport');
-
-
 var session = require('express-session');
 var flash = require('connect-flash');
+var mongoStore = require('connect-mongo')(session);
 
 var app = express();
 
@@ -32,7 +32,10 @@ mongoose.connect(dbConfig.url);
 
 // passport configurations
 require('./configs/passport')(passport);
-app.use(session({ secret: 'secretcannotbetoldofenterprisedualstrategy' }));
+app.use(session({
+    secret: 's3cr3tcann0tb3t0ld!',
+    store: new mongoStore(dbConfig)
+}));
 app.use(passport.initialize());
 app.use(passport.session());
 app.use(flash());
