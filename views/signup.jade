@@ -5,9 +5,10 @@ block content
      span.heading Đăng nhập eds <br />
         extra() Đại lý
      .signin-wrap
+        .message #{message}
         .signin-inputs
-           input(type="text", placeholder="địa chỉ email")#email
-           input(type="text", placeholder="mật khẩu")#password
+           input(name="email", type="text", placeholder="địa chỉ email")#email
+           input(name="password", type="text", placeholder="mật khẩu")#password
         .signin-buttons
            label.checkbox
               input(type="checkbox")

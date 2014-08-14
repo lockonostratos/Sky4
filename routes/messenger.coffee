@@ -1,6 +1,5 @@
-express = require 'express'
-router = express.Router()
+module.exports =  (app, express, passport) ->
+  messenger = express.Router()
 
-#...............
 
-module.exports = router
+  app.use '/messenger', messenger

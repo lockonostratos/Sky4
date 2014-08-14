@@ -1,10 +1,11 @@
 extends layouts/session
 
 block content
-  form.signin-panel(action='/session/signin', method="post")
+  form.signin-panel(action='/session/', method="post")
      span.heading Đăng nhập eds <br />
         extra() Đại lý
      .signin-wrap
+        .message #{message}
         .signin-inputs
            input(type="text", placeholder="địa chỉ email")#email
            input(type="text", placeholder="mật khẩu")#password
@@ -17,4 +18,4 @@ block content
            button.signin-button(type="submit") ĐĂNG NHẬP!
      .registration.right-float
        | Chưa có tài khoản?
-       a(href="")  Đăng ký ngay!
+       a(href="/session/signup")  Đăng ký ngay!
